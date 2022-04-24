@@ -32,7 +32,12 @@ public class Employee
 			empwage=emphrs*empwageperhr;
 			System.out.println("Emp wage:"+empwage);
 			break;
-
+		default:
+			emphrs=0;
+			System.out.println("ABSENT");
+			System.out.println("Employee hrs:"+emphrs);
+			empwage=emphrs*empwageperhr;
+			System.out.println("Emp wage:"+empwage);
 		}	
 
 	}
