@@ -2,8 +2,6 @@ package Employee_wage_problem;
 
 import java.util.Random;
 
-import Day4_Assignment.Employee_wage;
-
 public class Employee
 {
 	
@@ -23,6 +21,13 @@ public class Employee
 		case part_time:
 			emphrs=4;
 			System.out.println("For Part Time Work Total Wage:");
+			System.out.println("Employee hrs:"+emphrs);
+			empwage=emphrs*empwageperhr;
+			System.out.println("Emp wage:"+empwage);
+			break;
+		case full_time:
+			emphrs=8;
+			System.out.println("ForFull Time Work Total Wage:");
 			System.out.println("Employee hrs:"+emphrs);
 			empwage=emphrs*empwageperhr;
 			System.out.println("Emp wage:"+empwage);
